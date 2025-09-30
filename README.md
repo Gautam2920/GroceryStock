@@ -1,16 +1,65 @@
-# React + Vite
+GroceryStock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dark-themed React application to manage and track grocery inventory. Built with React and Tailwind CSS, GroceryStock provides an intuitive interface for searching, filtering, and managing products.
 
-Currently, two official plugins are available:
+Demo
+Features
+Dark-themed, responsive UI with appealing colors.
+Search products by name.
+Filter products by stock availability.
+Dynamic product grid with categories, pricing, and stock status.
+Easy-to-extend structure for adding more features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+React – Frontend library for building interactive UI.
+Tailwind CSS – Utility-first CSS framework for fast, modern styling.
+JavaScript (ES6+) – Core logic and state management.
 
-## React Compiler
+Project Structure
+src/
+├─ App.jsx             # Main app component
+├─ components/
+│  ├─ Navbar.jsx       # Top navigation bar
+│  ├─ Hero.jsx         # Hero section
+│  ├─ Footer.jsx       # Footer component
+│  └─ FilterableProductGrid.jsx  # Product grid with search & filter
+├─ index.css           # Tailwind CSS imports
+└─ main.jsx            # React DOM rendering
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Getting Started
+Prerequisites
+Node.js >= 18.x
+npm or yarn
 
-## Expanding the ESLint configuration
+Installation
+# Clone the repo
+git clone https://github.com/yourusername/grocerystock.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Navigate to project folder
+cd grocerystock
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Run the project
+npm start
+# or
+yarn start
+
+The app will run locally at http://localhost:3000
+
+Customization
+Products: Modify the PRODUCTS array in App.jsx to add/remove products.
+Colors & Themes: Update Tailwind CSS classes to adjust the color palette or dark mode styling.
+
+Contributing
+Fork the repository.
+Create a new branch: git checkout -b feature/YourFeature.
+Commit your changes: git commit -m "Add new feature".
+Push to the branch: git push origin feature/YourFeature.
+Open a Pull Request.
+
+License
+This project is licensed under the MIT License.
