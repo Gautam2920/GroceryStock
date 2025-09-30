@@ -58,21 +58,16 @@ yarn start
 ```
 The app will run locally at http://localhost:3000.
 
-Customization
+## Customization
 Products: Modify the PRODUCTS array in App.jsx to add/remove products
-
 Colors & Themes: Update Tailwind CSS classes to adjust the color palette or dark mode styling
 
-Contributing
-Fork the repository
+## Contributing
+- Fork the repository
+- Create a new branch: git checkout -b feature/YourFeature
+- Commit your changes: git commit -m "Add new feature"
+- Push to the branch: git push origin feature/YourFeature
+- Open a Pull Request
 
-Create a new branch: git checkout -b feature/YourFeature
-
-Commit your changes: git commit -m "Add new feature"
-
-Push to the branch: git push origin feature/YourFeature
-
-Open a Pull Request
-
-License
+## License
 This project is licensed under the MIT License.
