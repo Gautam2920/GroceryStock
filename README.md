@@ -2,6 +2,11 @@
 
 A modern, dark-themed React application to manage and track grocery inventory. Built with **React** and **Tailwind CSS**, GroceryStock provides an intuitive interface for searching, filtering, and managing products.  
 
+## Demo
+
+Check out the live app here: [GroceryStock Live](https://grocerystock-seven.vercel.app/)
+
+
 ## Features
 
 - Dark-themed, responsive UI with appealing colors  
